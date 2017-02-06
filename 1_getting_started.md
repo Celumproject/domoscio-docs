@@ -33,3 +33,5 @@ For your applications developed with Ruby On Rails, we provide a gem which highl
 The header is constructed as follows:
 
 	'Authorization' => "Token token=#{DomoscioRails.configuration.client_passphrase}"
+
+![Zozor](http://uploads.siteduzero.com/files/420001_421000/420263.png)
