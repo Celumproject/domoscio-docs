@@ -11,7 +11,7 @@ Every learner is registered as a Student.
 
 # Knowledge Node Student
 
-A Knowledge Node Student is a link between a Student and a Knowledge Node. It is used to model the Student Knowledge : it contains all the results, data computations and analysis for the student that could be useful for you.
+A Knowledge Node Student is a link between a Student and a Knowledge Node. It is used to model the Student Knowledge: it contains all the results, data computations and analysis for the student that could be useful for you.
 
 <br/>
 
