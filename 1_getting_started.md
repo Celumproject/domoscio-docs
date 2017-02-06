@@ -25,7 +25,7 @@ We provide two ways to authenticate and communicate with the service
 
 You can pass your authentication key as a token in the URL to authenticate your appliance:
 
-	http://stats-engine.domoscio.com/v1/instances/{your instance id}/users?token={you key}
+	http://adaptive-engine.domoscio.com/v2/instances/{your instance id}/users?token={you key}
 
 ## 1.3.2 With authorization header
 
@@ -34,4 +34,3 @@ The header is constructed as follows:
 
 	'Authorization' => "Token token=#{DomoscioRails.configuration.client_passphrase}"
 
-![Zozor](http://uploads.siteduzero.com/files/420001_421000/420263.png)
