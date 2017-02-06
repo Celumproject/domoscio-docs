@@ -41,8 +41,18 @@ or simply a json object describing the newly created object:
 
 	{name: "Mathematics", uid: "mat0036grde", created_at: [Now]}
 
+Amongst all the types of information you should send to the API, the following three are mandatory. In some cases, the "Contents structure and meta-data" can be imported directly into the API. If that is your case or if you are willing to do so, please contact us directly.
 ### Contents structure and meta-data 
+All user activity related to content is mastered by KnowledgeNodeStudent. They operate also as a permission controller between a Student and a Content. Their existence mean that a Student is entitled to access this piece of Content.
+
+![User Enrollment](https://raw.githubusercontent.com/Celumproject/domoscio-docs/master/uploads/user_enrollment_.png)
+
+*	Unique : Can be considered as a student subscription to a notion
+*	Smart: Carry all user data : results, analysis, computations…
+*	Simple: Use this object to record all student results
+
 ### Users, and subscriptions
+
 ### Events and users interactions with your platform
 
 ## What you can receive from the API
