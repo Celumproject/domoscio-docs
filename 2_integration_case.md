@@ -6,6 +6,7 @@ In order to proceed, you have to make sure that you have the following requireme
 *	A working e-learning or LMS platform
 *	Credentials to connect to Domoscio's adaptive learning engine API
 *	An HTTP requester to try out your request before implementing them
+*	Basic knowledge of how to construct a HTTP request and what are 
 
 Before starting, you can check if a SDK already exists to connect to the API for your programming language. 
 For instance, if you are lucky enough that you're platform is coded with Ruby, we can use the [SDK](https://github.com/Celumproject/domoscio_rails) that we developped to connect the API to our White Label solution. Otherwise you can always refer to this library to get inspired!
@@ -23,7 +24,23 @@ With these two elements you can start communicating with the API and requesting 
 
 # Integrating the API into your platform
 
-## What you need to send to the API
+Let us start actually work on the integration of the API into your platform. In order to fully describe the process we will highlight two parts: information that you will need to provide to the API and information that you might be receiving from the API.
+
+
+## Information you need to send to the API
+
+In this part, we focus on what your application should declare to the API in order to be able to make its computation and deliver its adaptive learning functionnalities. For the main part of this section, the method that you will be using is:
+
+	HTTP Method: POST 
+
+If everything goes well with your request, you shall receive a:
+
+	OK RESPONSE 200
+
+or simply a json object describing the newly created object:
+
+	{name: "Mathematics", uid: "mat0036grde", created_at: [Now]}
+
 ### Contents structure and meta-data 
 ### Users, and subscriptions
 ### Events and users interactions with your platform
