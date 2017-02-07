@@ -89,7 +89,7 @@ Creating a KnowledgeNodeStudent is, as usual, done through this example of reque
 The response you will be receiving is something like:
 
 	{
-		"id": 547
+		"id": 547,
 		"knowledge_node_id": 45,
 		"student_id": 12,
 		"uid": «kns1» (Optional)
