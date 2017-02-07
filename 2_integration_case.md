@@ -43,15 +43,38 @@ or simply a json object describing the newly created object:
 
 Amongst all the types of information you should send to the API, the following three are mandatory. In some cases, the "Contents structure and meta-data" can be imported directly into the API. If that is your case or if you are willing to do so, please contact us directly.
 ### Contents structure and meta-data 
+
+
+### Users, Students and subscriptions
+#### Students
+The Student is the object on Domoscio's API that represent the users that are learning something on your platform. This object is obviously central and necessary for the application to do the proper computations. 
+Creating a Student is a simple as requesting a POST method on the Student Index URL:
+
+	Method: POST
+	URL: HOST_URL/instances/{instance_id}/students
+
+If everything goes well, you should be receiving the following answer depending on what you actually sent to the API:
+
+	{
+		id: 48,
+		uid: "my_first_student",
+		civil_profile_attributes: {
+			name: « John Doe »,  (Optional)
+			sexe: « male »,  (Optional)
+			day_of_birth: « 1970/01/01 »  (Optional)
+		},
+		student_group_id: « 1 » (Optional)
+	}
+	
+
+#### Links between a User and a piece of knowledge (KnowledgeNode)
 All user activity related to content is mastered by KnowledgeNodeStudent. They operate also as a permission controller between a Student and a Content. Their existence mean that a Student is entitled to access this piece of Content.
 
 ![User Enrollment](https://raw.githubusercontent.com/Celumproject/domoscio-docs/master/uploads/user_enrollment_.png)
 
-*	Unique : Can be considered as a student subscription to a notion
+*	Unique : Can be considered as a student subscription to a piece of Ressource
 *	Smart: Carry all user data : results, analysis, computations…
-*	Simple: Use this object to record all student results
-
-### Users, and subscriptions
+*	Simple: Use this object to record all student events
 
 ### Events and users interactions with your platform
 
