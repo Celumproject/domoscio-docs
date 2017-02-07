@@ -46,6 +46,9 @@ Amongst all the types of information you should send to the API, the following t
 
 
 ### Users, Students and subscriptions
+#### Users
+The User is yourself. As a developer or an administrator of your Instance object you have the right to connect to it through your credentials.
+
 #### Students
 The Student is the object on Domoscio's API that represent the users that are learning something on your platform. This object is obviously central and necessary for the application to do the proper computations. 
 Creating a Student is a simple as requesting a POST method on the Student Index URL:
@@ -56,27 +59,47 @@ Creating a Student is a simple as requesting a POST method on the Student Index 
 If everything goes well, you should be receiving the following answer depending on what you actually sent to the API:
 
 	{
-		id: 48,
-		uid: "my_first_student",
-		civil_profile_attributes: {
-			name: « John Doe »,  (Optional)
-			sexe: « male »,  (Optional)
-			day_of_birth: « 1970/01/01 »  (Optional)
+		"id": 48,
+		"uid": "my_first_student",
+		"civil_profile_attributes": {
+			"name": « John Doe »,  (Optional)
+			"sexe": « male »,  (Optional)
+			"day_of_birth": « 1970/01/01 »  (Optional)
 		},
-		student_group_id: « 1 » (Optional)
+		"student_group_id": « 1 » (Optional)
 	}
 	
+
+Once you created your first user, you can start focusing on creating a bridge between your Student and your KnowledgeNode so that you can start declaring Event!
 
 #### Links between a User and a piece of knowledge (KnowledgeNode)
 All user activity related to content is mastered by KnowledgeNodeStudent. They operate also as a permission controller between a Student and a Content. Their existence mean that a Student is entitled to access this piece of Content.
 
-![User Enrollment](https://raw.githubusercontent.com/Celumproject/domoscio-docs/master/uploads/user_enrollment_.png)
+![User Enrollment](https://raw.githubusercontent.com/Celumproject/domoscio-docs/master/uploads/user_enrollment.png)
 
 *	Unique : Can be considered as a student subscription to a piece of Ressource
 *	Smart: Carry all user data : results, analysis, computations…
 *	Simple: Use this object to record all student events
 
+Creating a KnowledgeNodeStudent is, as usual, done through this example of request:
+
+	 Method: POST
+	 URL: HOST_URL/instances/{instance_id}/knowledge_node_students
+
+The response you will be receiving is something like:
+
+	{
+		"id": 547
+		"knowledge_node_id": 45,
+		"student_id": 12,
+		"uid": «kns1» (Optional)
+	}
+
+Once you created your first KnowledgeNodeStudent object, you are all set to start declaring Event and going further.
+
 ### Events and users interactions with your platform
+
+
 
 ## What you can receive from the API
 ### Recommendations engine
