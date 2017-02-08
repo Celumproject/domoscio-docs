@@ -2,7 +2,7 @@
 
 The first step to start is to declare the learning objects. They can be anything : a video, a quizz, an image... In the API, a learning object is called a **Content**. Those objects deal with different concepts. The concepts are registered in the API as **Knowledge Nodes**. The Knowledge Nodes dealing with a common topic are organized and in **Knowledge Graph**. This structure is made through **Knowledge Edges**.
 
-![URL Creation](https://raw.githubusercontent.com/Celumproject/domoscio-docs/master/uploads/graph.jpg =923x460)
+![URL Creation](https://raw.githubusercontent.com/Celumproject/domoscio-docs/master/uploads/graph.jpg){ width=75% }
 
 <br/><br/>
 
