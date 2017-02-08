@@ -9,7 +9,7 @@ The following image describe the tag structure:
 
 # 4.1 Tag Set
 
-In parallel of creating your knowledge\'s structure, you can create any Tag that you want. To structure those Tags, they can be grouped by Tag Set. Therefore, when setting up your own tag system, the Tag Set is the first object to declare.
+In parallel of creating your knowledge's structure, you can create any Tag that you want. To structure those Tags, they can be grouped by Tag Set. Therefore, when setting up your own tag system, the Tag Set is the first object to declare.
 
 <br/><br/>
 
