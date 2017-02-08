@@ -1,6 +1,9 @@
 In order to give more meaning to your Contents and to enrich the knowledge structure, a tag system has been set up. It is structured similarly to the knowledge part: there is a **Tag Set** which incorporates the whole domain of Tags. It is composed of **Tags** which are related between each other thanks to **Tag Edges**. The Tag Edges shows that one Tag is more difficult, or includes, another Tag.
 By default, one Tag Set exists to categorize the Contents. This way, one can indicate if a Content is a question type or not.
 The tag system will come in handy when we will deal with the learning rules and adaptive learning functionalities.
+The following image describe the tag structure:
+
+![URL Creation](https://raw.githubusercontent.com/Celumproject/domoscio-docs/master/uploads/tags.jpg)
 
 <br/><br/>
 
@@ -19,6 +22,8 @@ Once you have created a Tag Set, you can start create the actual Tags related to
 # 4.3 Tag Edge
 
 To create a link between two Tags because one includes the other, you can create a Tag Edge from one to the other. As such you are creating a DAG (directed acyclic graph) of Tags. For performance purposes, when you create an Edge we will create a bunch of indirect Edges to fully describe the graph. Please bear this in mind in you try to fetch the Tag Edges at some point.
+
+
 
 <br/><br/>
 
