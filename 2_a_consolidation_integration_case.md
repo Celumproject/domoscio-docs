@@ -115,9 +115,8 @@ As explained previously, Events are linked to a KnowledgeNodeStudent Object. Hen
 
 Here are the easiest steps to interact, declare and create objects in Domoscio's API. Next, we will go through what you can expect and receive from this API.
 
-## What you can receive from the API
 
-### Reviews engine
+## Reviews engine
 In order to provide to your user an automated, personnalized and optimized revision plan you can request from Domoscio's API, all the reviews for a specific student. To do this you might want to use the "Utils" class.
 
 For instance:
@@ -133,7 +132,5 @@ The response is basically, an array of all the knowledge node students that are 
 
 The number of elements in the json Array is equivalent to the number of questions that your current user has to answer to proceed with the reviewing process.
 
-
-### Recommendations engine
-### Api engine
+_Note:_ You can request all the forecasted revisions by not sending the **pending** parameter.
 
