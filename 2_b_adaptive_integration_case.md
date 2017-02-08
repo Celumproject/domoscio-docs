@@ -117,7 +117,6 @@ Here are the easiest steps to interact, declare and create objects in Domoscio's
 
 ## What you can receive from the API
 
-### Reviews engine
 ### Recommendations engine
 ### Api engine
 
