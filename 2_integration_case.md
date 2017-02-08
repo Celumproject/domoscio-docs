@@ -1,6 +1,6 @@
 This document will walk you through the main steps to integrate the "Adaptive Learning Solution" into your platform.
 
-# What do you need?
+# What do you need to start?
 In order to proceed, you have to make sure that you have the following requirements:
 
 *	A working e-learning or LMS platform
@@ -11,7 +11,7 @@ In order to proceed, you have to make sure that you have the following requireme
 Before starting, you can check if a SDK already exists to connect to the API for your programming language. 
 For instance, if you are lucky enough that you're platform is coded with Ruby, we can use the [SDK](https://github.com/Celumproject/domoscio_rails) that we developped to connect the API to our White Label solution. Otherwise you can always refer to this library to get inspired!
 
-## Get your credentials anc connect to the API
+## Get your credentials and connect to the API
 
 Request your API credentiels and you will receive:
 
@@ -123,8 +123,15 @@ In order to provide to your user an automated, personnalized and optimized revis
 For instance:
 
 	 Method: GET
-	 URL: HOST_URL/instances/{instance_id}/review_utils/?student_id={student_id}
+	 URL: HOST_URL/instances/{instance_id}/review_utils/fetch_reviews/?student_id={student_id}&pending=true
 
+The response is basically, an array of all the knowledge node students that are scheduled to be reviewed. Each entry of this array contains:
+
+*	the IDs and UIDs of the corresponding KnowledgeNodeStudent
+*	the next due dates for the revisions
+*	the IDs and UIDs of the corresponding KnowledgeNode
+
+The number of elements in the json Array is equivalent to the number of questions that your current user has to answer to proceed with the reviewing process.
 
 
 ### Recommendations engine
