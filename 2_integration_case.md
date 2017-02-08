@@ -6,7 +6,7 @@ In order to proceed, you have to make sure that you have the following requireme
 *	A working e-learning or LMS platform
 *	Credentials to connect to Domoscio's adaptive learning engine API
 *	An HTTP requester to try out your request before implementing them
-*	Basic knowledge of how to construct a HTTP request and what are 
+*	Basic knowledge of how to construct a HTTP request and how to interact with an API
 
 Before starting, you can check if a SDK already exists to connect to the API for your programming language. 
 For instance, if you are lucky enough that you're platform is coded with Ruby, we can use the [SDK](https://github.com/Celumproject/domoscio_rails) that we developped to connect the API to our White Label solution. Otherwise you can always refer to this library to get inspired!
