@@ -17,7 +17,7 @@ A Knowledge Node Student is a link between a Student and a Knowledge Node. It is
 
 # Objective
 
-An Objective is a set of Knowledge Node which all have a threshold of comprehension. An Objective can be reached when, for each its Knowledge Nodes, the student’s mastery is above the threshold.
+An Objective is a set of Knowledge Node which all have a threshold of comprehension. An Objective can be reached when, for each its Knowledge Nodes, the student\’s mastery is above the threshold.
 It is possible to activate the learning consolidation on that Objective : when some point is mastered, it will trigger the beginning of the reviewing for that point.
 
 <br/>

@@ -6,21 +6,21 @@ The first step to start is to declare the learning objects. They can be anything
 
 <br/><br/>
 
-# 3.1 Knowledge Graph
+# Knowledge Graph
 
 The content’s structure is gathered into Knowledge Graphs. A Knowledge Graph is the first object to instantiate while setting up your content on our API. It is the higher level of structuration.
 
 </br>
 </br>
 
-# 3.2 Knowledge Node
+# Knowledge Node
 
 Knowledge Nodes are the second objects to instantiate while setting up your content on our API. They represent concepts. It can be "Least Common Multiple" in a Math course context or "Delegating Style" in a Management course context.
 
 </br>
 </br>
 
-# 3.4 Knowledge Edge
+# Knowledge Edge
 
 The Knowledge Edge are here to structure the Knowledge Nodes between one another. They indicate pre-requisite relationships between a source and a destination. In other words, the source Knowledge Node has to be mastered for the learner to understand the destination Knowledge Node.
 For instance, the addition has to be understood before starting to learn multiplication.
@@ -28,14 +28,14 @@ For instance, the addition has to be understood before starting to learn multipl
 </br>
 </br>
 
-# 3.5 Content
+# Content
 
 A Content is anything that allows the learner to learn or to be evaluated. It can be an image, some text...
 
 </br>
 </br>
 
-# 3.6 Knowledge Node Content
+# Knowledge Node Content
 
 The Knowledge Node Content makes the link between a Content and a Knowledge Node. Especially when a learning object is large (such as a long video or a book), it can deal with several Knowledge Nodes. Therefore, a Content can have one or several Knowledge Node Content(s). 
 
