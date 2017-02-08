@@ -4,6 +4,8 @@ The first step to start is to declare the learning objects. They can be anything
 
 ![URL Creation](https://raw.githubusercontent.com/Celumproject/domoscio-docs/master/uploads/graph.jpg){ width=75% }
 
+<img src="https://raw.githubusercontent.com/Celumproject/domoscio-docs/master/uploads/graph.jpg" width="923" height="460" />
+
 <br/><br/>
 
 # 3.1 Knowledge Graph
