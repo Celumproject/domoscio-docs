@@ -1,9 +1,11 @@
 # Use our REST Api
 
 We designed the Domoscio API in a **Restful way**, so that your user experience is simple and straightforward. You are able to :
-* Submit data requires an **HTTP POST** request
-* Retrieve data requires an **HTTP GET** request
-* Change data requires an **HTTP PUT** request
+
+*	Submit data requires an **HTTP POST** request
+*	Retrieve data requires an **HTTP GET** request
+*	Change data requires an **HTTP PUT** request
+
 
 Requests must be sent using content-type "application/json". The request and response body encoding is UTF-8.
 <br/><br/>

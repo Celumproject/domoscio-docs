@@ -1,4 +1,4 @@
-This document will walk you through the main steps to integrate the "Adaptive Learning Solution" into your platform.
+﻿This document will walk you through the main steps to integrate the "Consolidation Solution" into your platform.
 
 # What do you need to start?
 In order to proceed, you have to make sure that you have the following requirements:
@@ -41,7 +41,14 @@ or simply a json object describing the newly created object:
 
 	{name: "Mathematics", uid: "mat0036grde", created_at: [Now]}
 
-Amongst all the types of information you should send to the API, the following three are mandatory. In some cases, the "Contents structure and meta-data" can be imported directly into the API. If that is your case or if you are willing to do so, please contact us directly.
+Amongst all the types of information you should send to the API, the following three are mandatory:
+
+*	Contents structure and meta-data
+*	Students and subscriptions
+*	Events and users interactions with your platform
+
+In some cases, the "Contents structure and meta-data" can be imported directly into the API. If that is your case or if you are willing to do so, please contact us directly.
+
 ### Contents structure and meta-data 
 
 
