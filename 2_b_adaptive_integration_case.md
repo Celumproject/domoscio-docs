@@ -97,7 +97,7 @@ Once you created your first KnowledgeNodeStudent object, you are all set to star
 ### Setting up objectives
 All user activity related to content is mastered by KnowledgeNodeStudent. They operate also as a permission controller between a Student and a Content. Their existence mean that a Student is entitled to access this piece of Content.
 
-![User Enrollment](https://raw.githubusercontent.com/Celumproject/domoscio-docs/master/uploads/objectives.jpg)
+![User Enrollment](https://raw.githubusercontent.com/Celumproject/domoscio-docs/master/uploads/objective.jpg)
 
 *	Unique : Can be considered as a student subscription to a piece of Ressource
 *	Smart: Carry all user data : results, analysis, computations…
