@@ -20,8 +20,9 @@ Now that you've got your authentication keys, let us see how to properly authent
 # Authenticate your app
 
 We provide two ways to authenticate and communicate with the service
-* **Basic Access Authentication**
-* **LTI/OAuth protocol**
+
+*	**Basic Access Authentication**
+*	**LTI/OAuth protocol**
 
 ## With URL parameters
 
