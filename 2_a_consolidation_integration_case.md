@@ -53,6 +53,45 @@ In some cases, the "Contents structure and meta-data" can be imported directly i
 
 Your learning objects (such as text or videos) are registered as **Contents**. Those Contents deal with one or several concept(s), which are called **Knowledge Nodes** by the API. To express that relationship, **KnowledgeNodeContents** are created.
 
+To do so, we will use the POST method.
+First, we will declare a content:
+
+	Method: POST
+	URL: HOST_URL/instances/{instance_id}/contents
+
+And you will receive the following message depending on what you actually sent to the API:
+
+	{
+		"id": 2,
+		"uid": "my_first_content"
+	}
+	
+That content deals with the solar system for instance. This is a concept you will want to declare:
+
+	Method: POST
+	URL: HOST_URL/instances/{instance_id}/knowledge_nodes
+
+And you will receive the following message depending on what you actually sent to the API:
+
+	{
+		"id": 5,
+		"uid": "my_first_concept",
+	}
+	
+The last step is to create a bridge between the content and the knowledge node:
+
+	Method: POST
+	URL: HOST_URL/instances/{instance_id}/knowledge_node_contents
+
+And you will receive the following message depending on what you actually sent to the API:
+
+	{
+		"id": 3,
+		"knowledge_node_id": "5"
+		"content_id": "2"
+		"importance_degree": "1" (Optional)
+	}
+
 
 ### Students and subscriptions
 #### Students
