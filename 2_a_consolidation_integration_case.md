@@ -88,9 +88,9 @@ And you will receive the following message depending on what you actually sent t
 
 	{
 		"id": 3,
-		"knowledge_node_id": "5",
-		"content_id": "2",
-		"importance_degree": "1" (Optional)
+		"knowledge_node_id": 5,
+		"content_id": 2,
+		"importance_degree": 1 (Optional)
 	}
 
 
