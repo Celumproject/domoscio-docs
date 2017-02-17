@@ -66,7 +66,8 @@ And you will receive the following message depending on what you actually sent t
 		"uid": "my_first_content"
 	}
 	
-That content deals with the solar system for instance. This is a concept you will want to declare:
+That content deals with the solar system for instance. </br>
+This is a concept you will want to declare:
 
 	Method: POST
 	URL: HOST_URL/instances/{instance_id}/knowledge_nodes
@@ -75,7 +76,7 @@ And you will receive the following message depending on what you actually sent t
 
 	{
 		"id": 5,
-		"uid": "my_first_concept",
+		"uid": "my_first_concept"
 	}
 	
 The last step is to create a bridge between the content and the knowledge node:
@@ -87,8 +88,8 @@ And you will receive the following message depending on what you actually sent t
 
 	{
 		"id": 3,
-		"knowledge_node_id": "5"
-		"content_id": "2"
+		"knowledge_node_id": "5",
+		"content_id": "2",
 		"importance_degree": "1" (Optional)
 	}
 
