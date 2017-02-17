@@ -51,8 +51,7 @@ Amongst all the types of information you should send to the API, the following t
 
 In some cases, the "Contents structure and meta-data" can be imported directly into the API. If that is your case or if you are willing to do so, please contact us directly.
 
-A REMPLIR
-mentionner uniquement un KN et les contents.
+Your learning objects (such as text or videos) are registered as **Contents**. Those Contents deal with one or several concept(s), which are called **Knowledge Nodes** by the API. To express that relationship, **KnowledgeNodeContents** are created.
 
 
 ### Students and subscriptions
@@ -115,7 +114,7 @@ Events are linked to a Content object. Hence, to declare a new Event to the API 
 
 	 {
 	 	"content": 65,
-	 	"type": "EventResult",
+	 	"type": "EventReview",
 		"standard": nil, (Can be "xAPI")
 	 	"payload": "100" (100 meaning success, and 0 failure)
 	 }
