@@ -9,8 +9,9 @@ The only constraint for the consolidation feature is that you must register your
 |---|---|---|
 | student_id | Integer | Student indentifier |
 | content_id (or content_uid) | Integer (or string) | The content identifier related to the event |
-| type | String | The format the payload is stored. Ex: "xAPI" (Optional) |
-| payload | String | Element associated to the event, a result for instance. xApi format is recommended |
+| type | String | The type of this event. Either "EventResult", "EventRead", "EventReview" |
+| standard | String | The format the payload is stored. Ex: "xAPI" (Optional) |
+| payload | String | Element associated to the event, a result for instance. xApi format is recommended | The
 | return_recommendation | Boolean | If true, API compute new user recommendations. |
 
 ## Create Event (POST)
