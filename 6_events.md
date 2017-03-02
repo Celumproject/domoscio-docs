@@ -15,18 +15,18 @@ The only constraint for the consolidation feature is that you must register your
 
 ## Create Event (POST)
 
-  Method: POST
-  URL: HOST_URL/instances/{instance_id}/events
+    Method: POST
+    URL: HOST_URL/instances/{instance_id}/events
   
 Here are the required parameters :
 
-  {
-    "student_id": 1, 
-    "content_id": 2,
-    "type": "EventResult",
-    "standard": "score",
-    "payload": "100",
-    "return_recommendation": true
-  }
+    {
+      "student_id": 1, 
+      "content_id": 2,
+      "type": "EventResult",
+      "standard": "score",
+      "payload": "100",
+      "return_recommendation": true
+    }
   
 In this case, you are posting a event involving student n° 1, having a result to an assessment on content n° 2, with a simple result at 100, and you are waiting for the API to compute some recommendations after event save.
